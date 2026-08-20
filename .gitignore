@@ -1,0 +1,36 @@
+# Environment variables and API keys
+.env
+.env.*
+*.env
+*.key
+*.pem
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+cce_data.db
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
