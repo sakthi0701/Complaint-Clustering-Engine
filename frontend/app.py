@@ -23,7 +23,7 @@ import streamlit as st
 API_BASE_URL = os.environ.get("CCE_API_URL", "http://localhost:8000")
 
 st.set_page_config(
-    page_title="CCE — Complaint Clustering Engine",
+    page_title="CCE - Complaint Clustering Engine beta",
     page_icon="𖣘",
     layout="wide",
     initial_sidebar_state="expanded",
